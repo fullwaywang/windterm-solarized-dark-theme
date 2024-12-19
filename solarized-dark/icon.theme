@@ -1,0 +1,176 @@
+@charset "UTF-8";
+.nobrush, .frame-outer, .frame-inner {
+	fill: none;
+}
+
+/*** pixmaps ***/
+
+.breadcrumb .brush {
+	fill: #93a1a1; /* Solarized Base1 */
+}
+.breadcrumb .pen {
+	fill: none;
+	stroke: #93a1a1; /* Solarized Base1 */
+	stroke-width: 25.8739;
+}
+
+.pixmap .brush {
+	fill: #93a1a1; /* Solarized Base1 */
+}
+.pixmap .brushActive {
+	fill: #268bd2; /* Solarized Blue */
+}
+.pixmap .brushError {
+	fill: #dc322f; /* Solarized Red */
+}
+.pixmap .pen {
+	fill: none;
+	stroke: #93a1a1; /* Solarized Base1 */
+	stroke-width: 25.8739;
+}
+.pixmap .penActive {
+	fill: none;
+	stroke: #268bd2; /* Solarized Blue */
+	stroke-width: 25.8739;
+}
+.pixmap .penError {
+	fill: none;
+	stroke: #dc322f; /* Solarized Red */
+	stroke-width: 25.8739;
+}
+
+.tabbar .brush {
+	fill: #93a1a1; /* Solarized Base1 */
+}
+
+.tabbar .pen {
+	fill: none;
+	stroke: #93a1a1; /* Solarized Base1 */
+	stroke-width: 25.8739;
+}
+
+#explorerPane .brush { fill: #dc322f; } /* Solarized Red */
+#filerPane .brush { fill: #586e75; } /* Solarized Base1 */
+#logo .brush { fill: #cb4b16; } /* Solarized Orange */
+#monoLogo .brush { fill: #93a1a1; } /* Solarized Base1 */
+#oneKeyAccount .brush { fill: #2aa198; } /* Solarized Cyan */
+#oneKeySSH .brush { fill: #d33682; } /* Solarized Magenta */
+#outlinePane .brush { fill: #73c991; } /* Solarized Green */
+#outputPane .brush { fill: #b58900; } /* Solarized Yellow */
+#projectPane .brush { fill: #f4b3b3; } /* Light Red */
+#senderPane .brush { fill: #9b59b6; } /* Medium Purple */
+#sessionPane .brush { fill: #268bd2; } /* Solarized Blue */
+#shellPane .brush { fill: #d33682; } /* Solarized Magenta */
+#start .brush { fill: #859900; } /* Solarized Green */
+#stop .brush { fill: #dc322f; } /* Solarized Red */
+#syncChannelA .brush { fill: #d33682; } /* Solarized Magenta */
+#syncChannelB .brush { fill: #268bd2; } /* Solarized Blue */
+#syncChannelC .brush { fill: #cb4b16; } /* Solarized Orange */
+#syncChannelD .brush { fill: #2aa198; } /* Solarized Cyan */
+#transferPane .brush { fill: #008b8b; } /* Dark Cyan */
+
+#colorDarkCyan .brush { fill-opacity: 0.5; fill: #008b8b; } /* Dark Cyan */
+#colorDeepPink .brush { fill-opacity: 0.5; fill: #d33682; } /* Solarized Magenta */
+#colorForestGreen .brush { fill-opacity: 0.5; fill: #2aa198; } /* Solarized Cyan */
+#colorGoldenrod .brush { fill-opacity: 0.5; fill: #b58900; } /* Solarized Yellow */
+#colorIndianRed .brush { fill-opacity: 0.5; fill: #dc322f; } /* Solarized Red */
+#colorMediumOrchid .brush { fill-opacity: 0.5; fill: #6c71c4; } /* Solarized Violet */
+#colorMediumSlateBlue .brush { fill-opacity: 0.5; fill: #268bd2; } /* Solarized Blue */
+#colorOlive .brush { fill-opacity: 0.5; fill: #657b83; } /* Solarized Base1 */
+#colorRed .brush { fill-opacity: 0.5; fill: #dc322f; } /* Solarized Red */
+#colorRoyalBlue .brush { fill-opacity: 0.5; fill: #268bd2; } /* Solarized Blue */
+#colorSteelBlue .brush { fill-opacity: 0.5; fill: #268bd2; } /* Solarized Blue */
+#colorTeal .brush { fill-opacity: 0.5; fill: #008b8b; } /* Dark Cyan */
+
+/*** symbols ***/
+
+.symbol {
+	font-family: 'Roboto Mono';
+	font-size: 255.212px;
+	font-weight: normal;
+	fill: #fdf6e3; /* Solarized Base0 */
+	stroke: #fdf6e3; /* Solarized Base0 */
+	stroke-width: 2.96615;
+}
+.symbolTunnel {
+	font-family: 'Roboto Mono';
+	font-size: 218.964px;
+	font-weight: normal;
+	fill: #93a1a1; /* Solarized Base1 */
+	stroke: #93a1a1; /* Solarized Base1 */
+	stroke-width: 2.96615;
+}
+.symbolTunnelActive {
+	font-family: 'Roboto Mono';
+	font-size: 218.964px;
+	font-weight: normal;
+	fill: #268bd2; /* Solarized Blue */
+	stroke: #268bd2; /* Solarized Blue */
+	stroke-width: 2.96615;
+}
+.symbolTunnelError {
+	font-family: 'Roboto Mono';
+	font-size: 218.964px;
+	font-weight: normal;
+	fill: #dc322f; /* Solarized Red */
+	stroke: #dc322f; /* Solarized Red */
+	stroke-width: 2.96615;
+}
+
+#a .frame-outer, #A .frame-inner { stroke: #6c71c4; fill: #6c71c4; } /* Solarized Violet */
+#b .frame-outer, #B .frame-inner { stroke: #268bd2; fill: #268bd2; } /* Solarized Blue */
+#c .frame-outer, #C .frame-inner { stroke: #d33682; fill: #d33682; } /* Solarized Magenta */
+#d .frame-outer, #D .frame-inner { stroke: #cb4b16; fill: #cb4b16; } /* Solarized Orange */
+#e .frame-outer, #E .frame-inner { stroke: #268bd2; fill: #268bd2; } /* Solarized Blue */
+#f .frame-outer, #F .frame-inner { stroke: #dc322f; fill: #dc322f; } /* Solarized Red */
+#g .frame-outer, #G .frame-inner { stroke: #dc322f; fill: #dc322f; } /* Solarized Red */
+#h .frame-outer, #H .frame-inner { stroke: #dc322f; fill: #dc322f; } /* Solarized Red */
+#i .frame-outer, #I .frame-inner { stroke: #268bd2; fill: #268bd2; } /* Solarized Blue */
+#j .frame-outer, #J .frame-inner { stroke: #b58900; fill: #b58900; } /* Solarized Yellow */
+#k .frame-outer, #K .frame-inner { stroke: #268bd2; fill: #268bd2; } /* Solarized Blue */
+#l .frame-outer, #L .frame-inner { stroke: #cb4b16; fill: #cb4b16; } /* Solarized Orange */
+#m .frame-outer, #M .frame-inner { stroke: #859900; fill: #859900; } /* Solarized Green */
+#n .frame-outer, #N .frame-inner { stroke: #2aa198; fill: #2aa198; } /* Solarized Cyan */
+#o .frame-outer, #O .frame-inner { stroke: #cb4b16; fill: #cb4b16; } /* Solarized Orange */
+#p .frame-outer, #P .frame-inner { stroke: #008b8b; fill: #008b8b; } /* Dark Cyan */
+#q .frame-outer, #Q .frame-inner { stroke: #859900; fill: #859900; } /* Solarized Green */
+#r .frame-outer, #R .frame-inner { stroke: #d33682; fill: #d33682; } /* Solarized Magenta */
+#s .frame-outer, #S .frame-inner { stroke: #d33682; fill: #d33682; } /* Solarized Magenta */
+#t .frame-outer, #T .frame-inner { stroke: #859900; fill: #859900; } /* Solarized Green */
+#u .frame-outer, #U .frame-inner { stroke: #2aa198; fill: #2aa198; } /* Solarized Cyan */
+#v .frame-outer, #V .frame-inner { stroke: #008b8b; fill: #008b8b; } /* Dark Cyan */
+#w .frame-outer, #W .frame-inner { stroke: #cb4b16; fill: #cb4b16; } /* Solarized Orange */
+#x .frame-outer, #X .frame-inner { stroke: #dc322f; fill: #dc322f; } /* Solarized Red */
+#y .frame-outer, #Y .frame-inner { stroke: #dc322f; fill: #dc322f; } /* Solarized Red */
+#z .frame-outer, #Z .frame-inner { stroke: #d33682; fill: #d33682; } /* Solarized Magenta */
+#num0 .frame-outer, #Num0 .frame-inner { stroke: #cb4b16; fill: #cb4b16; } /* Solarized Orange */
+#num1 .frame-outer, #Num1 .frame-inner { stroke: #2aa198; fill: #2aa198; } /* Solarized Cyan */
+#num2 .frame-outer, #Num2 .frame-inner { stroke: #b58900; fill: #b58900; } /* Solarized Yellow */
+#num3 .frame-outer, #Num3 .frame-inner { stroke: #d33682; fill: #d33682; } /* Solarized Magenta */
+#num4 .frame-outer, #Num4 .frame-inner { stroke: #268bd2; fill: #268bd2; } /* Solarized Blue */
+#num5 .frame-outer, #Num5 .frame-inner { stroke: #6c71c4; fill: #6c71c4; } /* Solarized Violet */
+#num6 .frame-outer, #Num6 .frame-inner { stroke: #93a1a1; fill: #93a1a1; } /* Solarized Base1 */
+#num7 .frame-outer, #Num7 .frame-inner { stroke: #d33682; fill: #d33682; } /* Solarized Magenta */
+#num8 .frame-outer, #Num8 .frame-inner { stroke: #dc322f; fill: #dc322f; } /* Solarized Red */
+#num9 .frame-outer, #Num9 .frame-inner { stroke: #d33682; fill: #d33682; } /* Solarized Magenta */
+#and .frame-outer, #And .frame-inner { stroke: #cb4b16; fill: #cb4b16; } /* Solarized Orange */
+#angles .frame-outer, #Angles .frame-inner { stroke: #268bd2; fill: #268bd2; } /* Solarized Blue */
+#asterisk .frame-outer, #Asterisk .frame-inner { stroke: #859900; fill: #859900; } /* Solarized Green */
+#at .frame-outer, #At .frame-inner { stroke: #d33682; fill: #d33682; } /* Solarized Magenta */
+#braces .frame-outer, #Braces .frame-inner { stroke: #dc322f; fill: #dc322f; } /* Solarized Red */
+#brackets .frame-outer, #Brackets .frame-inner { stroke: #859900; fill: #859900; } /* Solarized Green */
+#dollar .frame-outer, #Dollar .frame-inner { stroke: #b58900; fill: #b58900; } /* Solarized Yellow */
+#dot .frame-outer, #Dot .frame-inner { stroke: #d33682; fill: #d33682; } /* Solarized Magenta */
+#equal .frame-outer, #Equal .frame-inner { stroke: #dc322f; fill: #dc322f; } /* Solarized Red */
+#exclamation .frame-outer, #Exclamation .frame-inner { stroke: #cb4b16; fill: #cb4b16; } /* Solarized Orange */
+#minus .frame-outer, #Minus .frame-inner { stroke: #2aa198; fill: #2aa198; } /* Solarized Cyan */
+#parenthesis .frame-outer, #Parenthesis .frame-inner { stroke: #268bd2; fill: #268bd2; } /* Solarized Blue */
+#percent .frame-outer, #Percent .frame-inner { stroke: #dc322f; fill: #dc322f; } /* Solarized Red */
+#plus .frame-outer, #Plus .frame-inner { stroke: #b58900; fill: #b58900; } /* Solarized Yellow */
+#pound .frame-outer, #Pound .frame-inner { stroke: #268bd2; fill: #268bd2; } /* Solarized Blue */
+#power .frame-outer, #Power .frame-inner { stroke: #6c71c4; fill: #6c71c4; } /* Solarized Violet */
+#question .frame-outer, #Question .frame-inner { stroke: #008b8b; fill: #008b8b; } /* Dark Cyan */
+#quotes .frame-outer, #Quotes .frame-inner { stroke: #dc322f; fill: #dc322f; } /* Solarized Red */
+#slash .frame-outer, #Slash .frame-inner { stroke: #93a1a1; fill: #93a1a1; } /* Solarized Base1 */
+#snippet .frame-outer, #Snippet .frame-inner { stroke: #d33682; fill: #d33682; } /* Solarized Magenta */
+#label .symbol, #Label .symbol { stroke: #268bd2; fill: #268bd2; } /* Solarized Blue */
